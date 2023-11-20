@@ -90,13 +90,8 @@ W pliku Startup.cs skonfiguruj usługi i dodaj DbContext:
 
 ```csharp
 
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddDbContext<AppDbContext>(options =>
-        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-    services.AddControllersWithViews();
-}
+builder.Services.AddDbContext<TestingAppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TestingAppConnection")));
 ```
 <br><br>
 ## Krok 8: Migracje i aktualizacja bazy danych
