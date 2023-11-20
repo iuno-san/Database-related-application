@@ -14,9 +14,9 @@ Otwórz Visual Studio i utwórz nowy projekt ASP.NET Core z modelem aplikacji "W
 Przejdź do konsoli NuGet Package Manager i zainstaluj następujące pakiety:
 
 ```bash
+dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Tools
-dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 ```
 <br><br>
 ## Krok 3: Utwórz model danych
