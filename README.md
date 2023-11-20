@@ -2,6 +2,7 @@
 Prosta aplikacja w ASP.NET Core MVC która wyświetala dane pobrane z bazy -->
 
 # Tworzenie aplikacji ASP.NET Core z bazą danych SQL
+<br>
 
 ## Krok 1: Utwórz nowy projekt ASP.NET Core
 
@@ -166,4 +167,4 @@ Uruchom aplikację i przejdź do strony /People w przeglądarce, aby zobaczyć d
 
 <br>
 
-<img src="">
+<img src="https://raw.githubusercontent.com/iuno-san/Database-related-application/master/TestAppImg.png">
