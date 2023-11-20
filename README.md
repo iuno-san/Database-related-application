@@ -6,7 +6,7 @@ Prosta aplikacja w ASP.NET Core MVC która wyświetala dane pobrane z bazy -->
 
 ## Krok 1: Utwórz nowy projekt ASP.NET Core
 
-Otwórz Visual Studio i utwórz nowy projekt ASP.NET Core z modelem aplikacji "Web Application".
+Otwórz Visual Studio i utwórz nowy projekt ASP.NET Core MVC Web Application.
 <br><br>
 
 ## Krok 2: Zainstaluj niezbędne pakiety NuGet
